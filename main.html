@@ -1,8 +1,81 @@
 <html>
   <head>
     <title>Facebook Login</title>
+	  <style>
+		  body{
+			  background-color:#f6f6f6;
+			  display:flex;
+			  justify-content:center;
+			  align-items:center;
+			  height:100vh;
+		  }
+		  .left{
+			  width:450px;
+			  margin-top:70px;
+			  display:inline-block;
+		  }
+
+		  form{
+			  display:flex;
+			  width:300px;
+			  background-color:white;
+			  padding:20px;
+			  border-radius:5px;
+			  box-shadow:0 0 10px #ccc;
+			  flex-direction:column;
+			  gap:10px;
+		  }
+
+		  input[type="text"],[type="password"],[type="submit"]{
+			  border:1px solid #ccc;
+			  border-radius:5px;
+			  padding:10px;
+		  }
+		 form button{
+			  background-color:#1877f2;
+			  border-radius:5px;
+			  padding:10px 20px;
+			  width:100%;
+		  }
+
+		  a{
+			  text-decoration:none;
+			  color:#1877f2;
+		  }
+
+		  .signup{
+			  background-color:#42b72a;
+			  padding:
+		  }
+	  </style>
   </head>
   <body>
+
+<div class="left">
+	 <img src="https://vectorjungal.com/files/preview/1280x412/11722277008q9xu1akusrpiotckep9wiiuaqjz2z4gxnjlwa72picl7evwdys1dv6oc3xpu44qstk7fqapx1pxugrgpvvroc0iqqm8avlninw4t.png" width="410px" height="180px" alt="Facebook logo">
+<p style="margin-top:-20px">Facebook helps you connect and share with the people in your life.</p>
+</div>
+
+
+
+
+	
+	  <div class="right">
+<form action="/fb_login" method="post">
+<input type="text" id="email" placeholder="Email address or phone number">
+	<input type="password" id="password" placeholder="Password">
+	<button type="submit">Log in</button>
+
+	<a href="#">Forgotten account?</a>
+
+	 <button type="submit" class="signup">Create new account</button>
+</form> 
+
+		 
+		  
+	  </div>
+
+	  
     <!-- Write your code here -->
   </body>
 </html>
